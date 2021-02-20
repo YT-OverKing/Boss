@@ -7,8 +7,8 @@ else
 if game.PlaceId == 6382464838 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/YT-OverKing/Dev-Hub-V1/main/WhatIsThis.lua"))()    
 else
-if game.PlaceID == 5810056693 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YT-OverKing/DevHub-Paid/master/Reaper.lua"))()
+if game.PlaceID == 6378344724 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YT-OverKing/DevHub-Paid/master/1M.lua"))()
 else
 if game.PlaceID == 3823781113 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/YT-OverKing/DevHub-Paid/master/Saber.lua"))()            
