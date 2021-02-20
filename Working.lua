@@ -1,8 +1,8 @@
-if game.PlaceId == 4520749081 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YT-OverKing/DevHub-Paid/master/KP.lua"))()
+if game.PlaceId == 6292475469 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YT-OverKing/Dev-Hub-V1/main/FPGAgki45G3.lua"))()
 else
-if game.PlaceId == 5951002734 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/YT-OverKing/AliceRelease/main/FuckNoMercy"))()    
+if game.PlaceId == 2753915549 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/YT-OverKing/Dev-Hub-V1/main/Gt2FSh6aXg.lua"))()    
 else
 if game.PlaceId == 6382464838 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/YT-OverKing/Dev-Hub-V1/main/WhatIsThis.lua"))()    
