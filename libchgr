@@ -106,7 +106,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = FluxLib
 	MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	MainFrame.BackgroundColor3 = Color3.fromRGB(25, 55, 150)
+	MainFrame.BackgroundColor3 = Color3.fromRGB(161,43,43)
 	MainFrame.ClipsDescendants = true
 	MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
 	MainFrame.Size = UDim2.new(0, 0, 0, 0)
@@ -117,7 +117,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 	LeftFrame.Name = "LeftFrame"
 	LeftFrame.Parent = MainFrame
-	LeftFrame.BackgroundColor3 = Color3.fromRGB(50, 85, 66)
+	LeftFrame.BackgroundColor3 = Color3.fromRGB(161,43,43)
 	LeftFrame.Size = UDim2.new(0, 205, 0, 484)
 
 	LeftCorner.CornerRadius = UDim.new(0, 5)
