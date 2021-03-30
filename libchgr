@@ -89,7 +89,7 @@ end
 
 function Flux:Window(text, bottom,mainclr,toclose)
 	CloseBind = toclose or Enum.KeyCode.RightControl
-	PresetColor = mainclr or Color3.fromRGB(25, 55, 150)
+	PresetColor = mainclr or Color3.fromRGB(25,55,150)
 	local fs = false
 	local MainFrame = Instance.new("Frame")
 	local MainCorner = Instance.new("UICorner")
@@ -126,7 +126,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 	GlowTabHolder.Name = "GlowTabHolder"
 	GlowTabHolder.Parent = LeftFrame
-	GlowTabHolder.BackgroundColor3 = Color3.fromRGB((161,43,43)
+	GlowTabHolder.BackgroundColor3 = Color3.fromRGB(161,43,43)
 	GlowTabHolder.BackgroundTransparency = 1.000
 	GlowTabHolder.BorderSizePixel = 0
 	GlowTabHolder.Position = UDim2.new(0, -15, 0, -15)
