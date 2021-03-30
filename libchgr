@@ -126,26 +126,26 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 	GlowTabHolder.Name = "GlowTabHolder"
 	GlowTabHolder.Parent = LeftFrame
-	GlowTabHolder.BackgroundColor3 = Color3.fromRGB(161,43,43)
+	GlowTabHolder.BackgroundColor3 = Color3.fromRGB(239,222,205)
 	GlowTabHolder.BackgroundTransparency = 1.000
 	GlowTabHolder.BorderSizePixel = 0
 	GlowTabHolder.Position = UDim2.new(0, -15, 0, -15)
 	GlowTabHolder.Size = UDim2.new(1, 30, 1, 30)
 	GlowTabHolder.ZIndex = 0
 	GlowTabHolder.Image = "rbxassetid://4996891970"
-	GlowTabHolder.ImageColor3 = Color3.fromRGB(15, 15, 15)
+	GlowTabHolder.ImageColor3 = Color3.fromRGB(239,222,205)
 	GlowTabHolder.ScaleType = Enum.ScaleType.Slice
 	GlowTabHolder.SliceCenter = Rect.new(20, 20, 280, 280)
 
 	Title.Name = "Title"
 	Title.Parent = LeftFrame
-	Title.BackgroundColor3 = Color3.fromRGB(161,43,43)
+	Title.BackgroundColor3 = Color3.fromRGB(239,222,205)
 	Title.BackgroundTransparency = 1.000
 	Title.Position = UDim2.new(0.097560972, 0, 0.0475206636, 0)
 	Title.Size = UDim2.new(0, 111, 0, 34)
 	Title.Font = Enum.Font.GothamBold
 	Title.Text = text
-	Title.TextColor3 = Color3.fromRGB(161,43,43)
+	Title.TextColor3 = Color3.fromRGB(239,222,205)
 	Title.TextSize = 25.000
 	Title.TextXAlignment = Enum.TextXAlignment.Left
 
