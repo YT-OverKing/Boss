@@ -1,5 +1,5 @@
 local Flux = {RainbowColorValue = 0, HueSelectionPosition = 0}
-local PresetColor = Color3.fromRGB(161,43,43)
+local PresetColor = Color3.fromRGB(239,222,205)
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
 local RunService = game:GetService("RunService")
@@ -89,7 +89,7 @@ end
 
 function Flux:Window(text, bottom,mainclr,toclose)
 	CloseBind = toclose or Enum.KeyCode.RightControl
-	PresetColor = mainclr or Color3.fromRGB(161,43,43)
+	PresetColor = mainclr or Color3.fromRGB(239,222,205)
 	local fs = false
 	local MainFrame = Instance.new("Frame")
 	local MainCorner = Instance.new("UICorner")
@@ -151,13 +151,13 @@ function Flux:Window(text, bottom,mainclr,toclose)
 
 	BottomText.Name = "BottomText"
 	BottomText.Parent = LeftFrame
-	BottomText.BackgroundColor3 = Color3.fromRGB(132,222,2)
+	BottomText.BackgroundColor3 = Color3.fromRGB(239,222,205)
 	BottomText.BackgroundTransparency = 1.000
 	BottomText.Position = UDim2.new(0.097560972, 0, 0.0889999792, 0)
 	BottomText.Size = UDim2.new(0, 113, 0, 28)
 	BottomText.Font = Enum.Font.Gotham
 	BottomText.Text = bottom
-	BottomText.TextColor3 = Color3.fromRGB(132,222,2)
+	BottomText.TextColor3 = Color3.fromRGB(239,222,205)
 	BottomText.TextSize = 14.000
 	BottomText.TextTransparency = 0.300
 	BottomText.TextXAlignment = Enum.TextXAlignment.Left
