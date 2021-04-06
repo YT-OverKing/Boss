@@ -89,7 +89,7 @@ end
 
 function Flux:Window(text, bottom,mainclr,toclose)
 	CloseBind = toclose or Enum.KeyCode.RightControl
-	PresetColor = mainclr or Color3.fromRGB(132,222,2)
+	PresetColor = mainclr or Color3.fromRGB(239,222,205)
 	local fs = false
 	local MainFrame = Instance.new("Frame")
 	local MainCorner = Instance.new("UICorner")
@@ -106,7 +106,7 @@ function Flux:Window(text, bottom,mainclr,toclose)
 	MainFrame.Name = "MainFrame"
 	MainFrame.Parent = FluxLib
 	MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
-	MainFrame.BackgroundColor3 = Color3.fromRGB(77,255,106)
+	MainFrame.BackgroundColor3 = Color3.fromRGB(239,222,205)
 	MainFrame.ClipsDescendants = true
 	MainFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
 	MainFrame.Size = UDim2.new(0, 0, 0, 0)
